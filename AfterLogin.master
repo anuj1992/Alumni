@@ -1,0 +1,245 @@
+﻿<%@import Namespace="System.Data" %>
+<%@import Namespace="System.Data.SqlClient" %>
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AfterLogin.master.cs" Inherits="AfterLogin" %>
+
+<%@ Register src="seachbox.ascx" tagname="seachbox" tagprefix="uc1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    
+<link href="themes/1/js-image-slider.css" rel="stylesheet" type="text/css" />
+<script src="themes/1/js-image-slider.js" type="text/javascript"></script>
+ <link href="generic.css" rel="stylesheet" type="text/css" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="myStyle.css"/>
+<link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+    
+</head>
+<body>
+<form id="form1" runat="server">
+<center>
+<div class="container">
+		<div class="header">
+        	<!--<div class="headerlogo"></div>-->
+            <div  class=" headerSlide"><!--Header slide Start-->
+            
+            		 <div id="sliderFrame">
+      						  <div id="slider">
+           							 <a href="#" target="_blank">
+        					        <img src="image/image-slider-1.png"  width="1024px" height="347px" alt="Welcome" />
+        						    </a>
+           							 <img src="image/image-slider-2.jpg" width="1024px" height="347px" alt="" />
+          							 <img src="image/image-slider-3.jpg" width="1024px" height="347px" alt="" />
+      							     <img src="image/image-slider-4.jpg" width="1024px" height="347px" alt="#htmlcaption" />
+    						         <img src="image/image-slider-5.jpg" width="1024px"" height="347px" />
+  						      </div>
+     								   <div id="htmlcaption" style="display: none;">
+           							   			Register New User <a href="#">Here</a>.
+        								</div>
+					  </div>
+            	
+           
+            </div><!--headertxt End-->
+        
+        </div><!--header End-->
+               
+               <div class="navgation">
+                 <ul id="MenuBar1" class="MenuBarHorizontal">
+                   
+                       <li><a href="userhome.aspx">Home</a></li>
+                   <li><a href="userprofile.aspx">My Profile</a></li>
+                   <li><a href="UserGallery.aspx">Gallery</a></li>
+                   <li><a class="MenuBarItemSubmenu" href="#">Settings</a>
+                     <ul>
+                       <li><a class="MenuBarItemSubmenu" href="userprofile.aspx">Profile</a>
+                         <ul>
+                           <li><a href="userprofile.aspx">View Profile</a></li>
+                           <li><a href="updateprofile.aspx">Update Profile</a></li>
+                         </ul>
+                       </li>
+                       <li><a href="changepassword.aspx">Change Pass</a></li>
+                       <li>&nbsp;</li>
+                       
+                     </ul>
+                   
+                   </li>
+                   <li><uc1:seachbox ID="seachbox1" runat="server" /></li>
+                   <li style="float:right";><asp:LinkButton ID="LinkButton1" runat="server" CssClass="lout" 
+                         onclick="LinkButton1_Click">Logout</asp:LinkButton></li>
+                         
+                 </ul>         
+                             
+                         
+                         
+                  
+                </div>
+<br />                  
+    <div class="container2">
+				<div class="left">
+                		<div  id="leftnav">
+                         	<li><a href="userhome.aspx">Home</a></li><hr />
+                            <li><a href="userprofile.aspx">Profile</a></li><hr />
+                            <li><a href= "UserGallery.aspx">Gallery</a></li><hr />
+                            <li><a href="#">ContactUs</a></li><hr />
+                        </div> 
+                
+                </div>
+				<div class="right">
+                		<!--short DescriptionAbout Container--><div id="rightLeft">
+                		                                        <center><p id="align">About ALUMNI</p></center>
+                        										
+                                                                <hr/>
+                                                                
+                                                            <!--txt-->  <div> >> The Alumni Association of Raman 1995 Batch(hereafter referred to as the Association) shall function through its registered office located at BHOPAL.
+                                                                <br />
+                                                               <h4> Mission </h4>
+>>The mission of the Raman 1995 Batch Alumni Association is to, assist and advance the alumni in pursuit of excellence, continue the associations formed in the school, build strong and mutually beneficial ties between the institution and its diverse alumni, promote goodwill ... <a href=#>more details</a></div><!--txt end-->
+
+                		
+                		
+                		
+                		
+                		
+                		                                        </div><!--short DescriptionAbout Container End-->
+                        
+                        			<div class="rightContainer">
+                   									<!-- Login Area Container-->	
+                                                    <div id="rightRight">
+                                                     <center><p id="align"><font color="white">Hi</font>&nbsp; 
+                                                         <asp:Label ID="Label2" runat="server" Text="Label" ForeColor="white"></asp:Label></p></center>
+                                                   <hr />
+                                                  	
+                                                <center>
+                                                   <div class="pnlPic">
+                                                        <div class="pnlstatus"><p id =""><font color="white">You Are Logged in as:</font> <br /> 
+                                                            <font color="white"> <asp:Label ID="Label1" runat="server"></asp:Label></font></p>
+                                                        </div>
+                                                        <div class=" pnlpicContainer">
+                                                            <asp:Image ID="Image1" runat="server"  CssClass="picStyle"/></div>
+                                                        </div>
+                                                    
+                                                    <br />
+                                                   <!-- <div id="textLink"><a href="profile.aspx">Check Your Profile Here !</a></div>--> 
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                        							<!--<input name="" class="TextBox" type="text" />
+                                                    <input name="" class="TextBox" type="text" />
+                                                    <input type="button" value="login"  class="loginButton"/><br />
+                                                    <div class="textLink">Sign Up</div> -->
+                                                    
+                                                    
+                                                 </center>
+                                                    
+                                                 
+                        
+                        
+                        							</div><!-- Login Area END-->
+                                     </div>
+                        <!-- album sliderContainer--><div id="rightLeftSlider">
+                                                        <center><p id="align"><font color="white">Upcoming Events</font></p></center>
+                                                        <hr />
+                                                        <marquee direction="up" behavior="scroll"  scrolldelay="100" scrollamount="2" onmouseover="this.stop();" onmouseout="this.start()">
+                                                       <%SqlConnection con = new SqlConnection(@"Data Source=.\sqlexpress;Initial Catalog=ramanveer;Integrated Security=True");
+              SqlCommand cmd = new SqlCommand("select name from personalinfo", con);
+              SqlDataAdapter da = new SqlDataAdapter();
+              da.SelectCommand = cmd;
+              DataSet ds = new DataSet();
+              da.Fill(ds, "personalinfo");
+              foreach (DataRow dr in ds.Tables[0].Rows)
+              { %>
+              <%string pid, path;
+                pid = dr["name"].ToString();
+                path = pid.Substring(2);%>
+                                                        <div class="UpcomingEventx">>>&nbsp;<%=pid%></div><%} %>
+                                                       
+                        
+                                                    </marquee>
+                                                    </div> <!--sliderContainer End->
+                                                    
+                                                    
+                                                    
+                                                    
+                		 <!--EvntsContainer--><div id="rightRightEvents">
+                		                            <center><p id="align"><font color="white">Birthdays</font></p></center>
+                                                        <hr />
+                                                        
+                		                            <marquee direction="up" height="100px" behavior="scroll"  scrolldelay="100" scrollamount="1" onmouseover="this.stop();" onmouseout="this.start()">
+                		                                                                <%SqlConnection con1 = new SqlConnection(@"Data Source=.\sqlexpress;Initial Catalog=ramanveer;Integrated Security=True");
+                                                                                    SqlCommand cmd1 = new SqlCommand("SELECT name,CONVERT(VARCHAR(7),dob,106) as dob FROM personalinfo WHERE DATEADD( Year, DATEPART( Year, GETDATE()) - DATEPART( Year, dob), dob) BETWEEN ( GETDATE()) AND ( GETDATE() + 7);", con);
+              SqlDataAdapter da1 = new SqlDataAdapter();
+              da1.SelectCommand = cmd1;
+              DataSet ds1 = new DataSet();
+              da1.Fill(ds1,"personalinfo");
+              foreach (DataRow dr in ds1.Tables[0].Rows)
+              { %>
+              <%string name, dob;
+                name = dr["name"].ToString();
+                dob = dr["dob"].ToString();%>           
+                                                        <div class="UpcomingEventx">
+                                                            >><sup><img src="image/birthday.gif" /></sup><%=name%>'s Birthday will be on <%=dob %> . 
+                                                        </div><%} %>
+                                                     </marquee>
+                                                        <%-- <center><p id="align">Anniversaries </p></center>
+                                                        <hr />
+                                                        <marquee direction="up" behavior="scroll"  scrolldelay="100" scrollamount="1" onmouseover="this.stop();" onmouseout="this.start()">
+                                                            <div class="UpcomingEventx">
+                                                                <sup><img src="image/birthday.gif" /></sup>
+                                                            </div></marquee>--%>
+                                                        </div><!--EvntsContainer End-->
+                </div><!--end right container2-->
+   	  </div><!--End container2-->
+ 		
+  </div><!--End container-->
+  </center>
+         
+	<div class="impLinks">
+    	<center>
+        	<div class="implinksContainer">
+					<div id="col1">
+            			<li><a href="#">Link 1</a></li>
+            			<li><a href="#">Link 1</a></li>
+          		 		<li><a href="#">Link 1</a></li>
+           				<li><a href="#">Link 1</a></li>
+            		</div>
+					<div id="col2">
+           		 		 <li><a href="#">Link 1</a></li>
+            			<li><a href="#">Link 1</a></li>
+            			<li><a href="#">Link 1</a></li>
+            			<li><a href="#">Link 1</a></li>
+            		</div>
+					<div id="col3">
+             			<li><a href="#">Link 1</a></li>
+            			<li><a href="#">Link 1</a></li>
+            			<li><a href="#">Link 1</a></li>
+            			<li><a href="#">Link 1</a></li>
+            		</div>
+					<div id="col4">
+            			 <li><a href="#">Link 1</a></li>
+            			<li><a href="#">Link 1</a></li>
+            			<li><a href="#">Link 1</a></li>
+            			<li><a href="#">Link 1</a></li>
+            		</div>
+			</div>
+          </center>
+	</div>
+    
+<div class="footer"><div  id="footertext">Anuj | Ankit | Rupendra | Shivam </div></div>
+
+</form>
+<script type="text/javascript">
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,386 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*--------------------Generate by Shivam Aka Da-Mysterious       \\(-_-)//  ---------*/
+
+body, h1,h3,h4,h5,h6,p ,hr{
+	margin:0 auto;
+	padding:0;
+}
+body{
+	
+	background: #333 ;
+	background-image:url(images/bg.png);
+	background-repeat:repeat-x repeat-y;
+	} 
+/*--Body Container  . */
+
+.container{
+	width:1024px;
+	background-color:#ece9d8;
+	 
+	}
+	.container2{
+		overflow: auto;
+		background-image:url(images/container_bg.png) ;
+	background-repeat:no-repeat;
+		
+	
+	
+	/*	background:url(images/bg.png);*/
+	}
+	
+
+/*--------Logo-------*/
+.header{
+	height:306px;
+	width:1024px;
+	
+	}
+.headerlogo{
+	float:left;
+	background:url(images/Untitled-3_01.png);
+	background-repeat:no-repeat;
+	width:347px;
+	height:306px;
+	
+}
+
+	.headerSlide{
+		width:1024px;
+		height:306px;
+		float:left;
+	
+	}
+	.headertxt{
+	/*text-align:left;
+	padding-top:20px;
+	margin-left:400px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-weight:bolder  ;
+	font-size:54px;*/
+	}
+	.headertxt1{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-weight:bolder  ;
+	font-size:30px;
+	text-align:left;
+     margin-top:-18px;
+	}
+	
+	
+
+
+/*--Navigation bar --- */
+.navgation{
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+
+	height:42px;
+	background-image:url(images/Untitled-3_03.png);
+	
+}
+
+
+
+.left
+{
+	float: left;
+	width:200px;
+	height:auto;
+	/*border-bottom: solid 1px #f5841f;*/
+}
+.right{
+	border-left: solid  1px #f5841f;
+	float:right;
+	width:820px;
+	height:auto;
+	text-align:left;
+}
+/*Right LeftContainer About Style*/
+
+.rightContainer{
+	width:823px;
+	height:auto;
+	}
+	
+#rightLeft{
+	float:left;
+	width:500px;
+	height:200px;
+	background-color:#999999;
+	border-radius:20px;
+	
+	}
+	
+/*rightRight LoginContainer Style*/
+
+#rightRight{
+	float:left;
+	width:300px;
+	margin-left:10px;
+	height:200px;
+	background-image: url(images/login_bg.png);
+	background-repeat: repeat-x; 
+	border-radius:20px;
+	
+}
+
+/*--------------Span for Memerlogin text Alignment----*/ 
+#align{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#333;
+	font-weight:bold;
+	font-size:22px;
+	padding-top:8px;
+}
+/*----------------------------Login Button Style-----*/
+ .loginButton{
+	width:250px;
+	border:thick;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:1em;
+	color:#333;
+	background-color: #f6953e;
+	box-shadow:#000 1px 3px 2px  ;
+	line-height:20px;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	
+}
+input:hover[type="button"]{
+	width:250px;
+	border:thick;
+	background-color:#f5841f;
+	box-shadow:#000 1px 3px 2px  ;
+	line-height:20px;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	
+}
+
+#rightLeftSlider {
+	float:left;
+	width:400px;
+	height:400px;
+	background:#0033CC;
+	
+}
+
+ #rightRightEvents{
+	 float:left;
+	 width:400px;
+	height:400px;
+	background-color:#F96;
+ }
+
+/*-----Text Box Style---------*/
+.TextBox{
+	line-height:20px;
+	border:thick;
+	width:250px;
+	background:#ece9d8;
+	
+}
+/*-------Normal link As a button view----*/
+.textLink{
+	width:250px;
+	line-height:22px;
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	background-color: #f6953e;
+	box-shadow:#000 1px 3px 2px  ;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:1em;
+	color:#333;
+	margin-top:9px;
+	
+	}
+
+
+/*--------Footer-------*/
+
+.footer{
+	
+		text-align:center;
+		color: #999;
+		font-family:Verdana, Geneva, sans-serif;
+		font-size:0.7em;
+		font-weight:bold;
+		border-radius:2px;
+		height:30px;
+		
+		background-image:url(images/Untitled-3_07.png);
+		
+	
+	
+	}
+	#footertext{
+		padding-top:6px;
+	}
+
+/*--------ImpLinkx-------*/
+.impLinks{
+	clear:both;
+	height:135px;
+	background-image: url(images/bg.png);
+		
+}
+.implinksContainer{
+	padding-top:15px;
+	width:1024px;
+	height:auto;
+	/*alignment-adjust:middle;*/
+}
+
+/*---------------IMpLinkscol1--------------*/
+#col1{
+	
+	font-size:0.8em;
+	line-height:30px;
+	font-weight: lighter;
+	
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	list-style-type:none;
+	float:left;
+	width:220px;
+	border
+	}
+	
+
+/*---------------Hover Over a Link col2--------------*/
+#col1 a{
+	color:#999999;
+	text-decoration:none;
+	
+	}
+	
+	#col1 a:hover{
+	color:#f5841f;
+	text-decoration:none;
+}
+	
+/*---------------IMpLinkscol2--------------*/
+
+#col2{
+	line-height:30px;
+	font-size:0.8em;
+	font-weight: lighter;
+	/*height:300px;
+	position:inherit;*/
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	list-style-type:none;
+	float:right;
+	width:220px;
+
+}
+/*---------------Hover Over a Link col2--------------*/
+#col2 a{
+	color:#999999;
+	text-decoration:none;
+	
+	}
+	
+	#col2 a:hover{
+		color:#f5841f;
+	text-decoration:none;
+}
+	
+/*---------------IMpLinkscol3--------------*/
+#col3{
+	line-height:30px;
+	font-size:0.8em;
+	font-weight: lighter;
+/*	height:300px;
+	position:inherit;*/
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	list-style-type:none;
+	float:right;
+	width:220px;
+	
+}
+
+/*---------------Hover Over a Link col3--------------*/
+
+#col3 a{
+	color:#999999;
+	text-decoration:none;
+	
+	}
+	
+	#col3 a:hover{
+	color:#f5841f;
+	text-decoration:none;
+}
+
+/*---------------IMpLinkscol4--------------*/
+#col4{
+	line-height:30px;
+	font-size:0.8em;
+	font-weight: lighter;
+	/*height:300px;
+	position:inherit;*/
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	list-style-type:none;
+	float:right;
+	width:220px;
+	
+}
+
+/*---------------Hover Over a Link col4--------------*/
+
+#col4 a{
+	color:#999999;
+	text-decoration:none;
+	
+	}
+	
+	#col4 a:hover{
+	color:#f5841f;
+	text-decoration:none;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color:#333;}
+	
+	
+.imgLoader{
+	width:auto;
+	height:auto;
+}
+#leftnav{
+	
+	width:195px;
+	height:170px;
+	background-color:#f5841f;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	
+	box-shadow:#000 1px 3px 4px  ;
+	
+	
+
+}
+#leftnav li,#leftnav li a{
+	text-decoration:none;
+	list-style:none;
+	line-height:30px;
+	color:#333;
+}
+
+#leftnav li a:hover{
+	color:#FFFFFF;
+	text-decoration:none;
+	
+}
+hr{
+	height:0.5px;
+}

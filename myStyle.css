@@ -1,0 +1,936 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*--------------------Generate by Shivam Aka Da-Mysterious       \\(-_-)//  ---------*/
+
+body, h1,h3,h4,h5,h6,p ,hr{
+	margin:0 auto;
+	padding:0;
+}
+
+body{
+	background:#333;
+	background-image:url(images/bg.png);
+	} 
+
+/*--Body Container  --*/
+
+.container{
+	width:1024px;
+	background-color:#ece9d8;
+	background-image: url(bg.png);
+	 
+	}
+	.container2{
+		margin-top:"";
+		overflow: auto;
+		background-color:#CCC;
+		background-image:url(images/container_bg.png) ;
+	background-repeat:no-repeat;
+		
+	
+	
+	/*	background:url(images/bg.png);*/
+	}
+	
+
+/*--------Logo-------*/
+.header{
+	height:306px;
+	width:1024px;
+	
+	}
+.headerforUserHome{
+	
+	height:200px;
+	width:1024px;
+	background-image:url(images/headr.png);
+	background-repeat:no-repeat;
+	}
+
+
+
+	.headerSlide{
+		width:1024px;
+		height:306px;
+		float:left;
+	
+	}
+	
+	
+
+
+/*--Navigation bar --- */
+.navgation{
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:14px;
+	
+	height:42px;
+	background-image:url(images/Untitled-3_03.png);
+	
+}
+
+.lout{
+
+	color:#333;
+	/*margin-left:500px;*/
+	/*line-height:40px;*/
+	text-decoration:none;
+}
+.
+	
+	
+	
+	}
+	#nav_menuPadding
+	{
+		padding-left:500px;
+	}
+
+
+.left
+{
+	float: left;
+	width:200px;
+	height:auto;
+	font-size:14px;
+	/*border-bottom: solid 1px #f5841f;*/
+}
+.right{
+	border-left: solid  1px #f5841f;
+	float:right;
+	width:820px;
+	height:auto;
+	text-align:left;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	overflow:hidden;
+	
+	
+	
+}
+/*Right LeftContainer About Style*/
+
+.rightContainer{
+	width:820px;
+	height:auto;
+	}
+	
+#rightLeft{
+	float:left;
+	width:480px;
+	height:194px;
+	background-color: #FFF;
+	border-radius:20px;
+	-webkit-border-radius:20px;
+	-moz-border-radius:20px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:1em;
+	color:#333;
+	font-weight: 400;
+	margin-left:5px;
+	padding-bottom:9px;
+	}
+	
+	#rightLeft a:{
+		text-decoration:none;
+		color:#333;
+		
+	}
+	#rightLeft a:hover{
+		color:#f5841f;
+		text-decoration:none;
+	}
+		
+/*rightRight LoginContainer Style*/
+
+#rightRight{
+	float:left;
+	width:300px;
+	margin-left:20px;
+	height:200px;
+	background-image: url(images/login_bg.png);
+	background-repeat: repeat-x; 
+	border-radius:20px;
+	
+	
+}
+/*PhotoPannel*/
+.pnlPic{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:18px;
+	width:300px;
+	height:auto;
+	
+}
+.pnlstatus{
+	float:left;
+	width:180px;
+	margin-left:9px;
+	text-align:left;
+}
+.pnlpicContainer{
+	float:right;
+	margin-top:4px;
+	margin-right:9px;
+	background-image:url(image/defaultImage1.jpg);
+	background-repeat:no-repeat;
+	border-radius:10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	box-shadow:#000 1px 3px 2px;
+
+	
+}
+	
+.picStyle{
+	width:80px;
+	height:80px;
+	border-radius:10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	box-shadow:#000 1px 3px 2px;
+
+}
+	
+
+/*--------------Span for Memerlogin text Alignment----*/ 
+#align{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#333;
+	font-weight:bold;
+	font-size:22px;
+	padding-top:8px;
+}
+/*----------------------------Login Button Style-----*/
+ .loginButton{
+	width:250px;
+	border:thick;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:1em;
+	color:#FFF;
+	background-color: #017d7c;
+	box-shadow:#000 1px 3px 2px;
+	line-height:20px;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	
+}
+.loginButton:hover{
+	width:250px;
+	border:thick;
+	background-color:#008a89;
+	box-shadow:#000 1px 3px 2px  ;
+	line-height:20px;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	
+}
+
+#rightLeftSlider {
+	float:left;
+	width:350px;
+	height:400px;
+	background-image:url(images/event_bg.png);
+	background-repeat:repeat-x;
+	border-radius:20px;
+	-webkit-border-radius:20px;
+	-moz-border-radius:20px;
+	margin-top:10px;
+	margin-left:8px;
+	
+}
+
+ #rightRightEvents{
+	 float:left;
+	 width:350px;
+	height:400px;
+	background-image:url(images/event_bg.png);
+	background-repeat:repeat-x;
+	border-radius:20px;
+	-webkit-border-radius:20px;
+	-moz-border-radius:20px;
+	margin-top:10px;
+	margin-left:50px;
+ }
+
+	.form{
+		width:800px;
+		height:auto;
+	}
+.tabl{
+	margin-left:20px;
+	width:100%;
+}
+/*-----Text Box Style---------*/
+.TextBox{
+	padding-left:5px;
+	height:40px;
+	border:thick;
+	width:308px;
+	font-size:20px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	overflow:scroll;
+
+	
+}
+.TextBox:hover{
+	border-color:#f5841f;
+	background-image:url(images/form__field_bg.png);
+	background-repeat:repeat-x repeat-y;
+	border:solid 1px;
+	
+	}
+.F_L_name{
+	padding-left:5px;
+	height:40px;
+	border:thick;
+	width:150px;
+	font-size:20px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	background:"";
+	
+}
+.F_L_name:hover{
+	border-color:#f5841f;
+	background-image:url(images/form__field_bg.png);
+	background-repeat:repeat-x repeat-y;
+	border:solid 1px;}
+	
+.DOB{
+	font-size:20px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	height:40px;
+	border:thick;
+	width:100px;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	background:"";
+	
+}
+.DOB:hover{
+	border-color:#f5841f;
+	background-image:url(images/form__field_bg.png);
+	background-repeat:repeat-x repeat-y;
+	border:solid 1px;}
+.DOB1{
+	font-size:20px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	height:40px;
+	border:thick;
+	width:104px;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	background:"";
+	
+}
+.DOB1:hover{
+	border-color:#f5841f;
+	background-image:url(images/form__field_bg.png);
+	background-repeat:repeat-x repeat-y;
+	border:solid 1px;}
+	
+.Btn{
+	width:154px;
+	border:thick;
+	height:40px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:20px;
+	color:#333;
+	background-color: #006666;
+	box-shadow:#000 1px 3px 2px;
+	line-height:20px;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+
+}
+.Btn:hover{
+	background-color:#177272;
+}
+/*---------Button Small---*/
+
+.Btn1{
+	/*
+	border:thick;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#333;*/
+	width:50px;
+	text-align:right;
+	background-image:url(images/edit.png);
+	background-repeat:no-repeat;
+	background-position:left;
+	/*box-shadow:#000 1px 3px 2px;
+	border-radius:2px;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	cursor:pointer;*/
+	
+	}
+.profilebtn{
+	
+	border:thick;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#333;
+	
+	box-shadow:#000 1px 3px 2px;
+	border-radius:2px;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	cursor:pointer;
+	margin-top:4px;
+	margin-left:18px;
+	}
+		
+	.profilebtn:hover{
+	background-color:#2b8585;
+	color:#fff;
+}
+.ChanePx{
+	
+	border:thick;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#333;	
+	box-shadow:#000 1px 3px 2px;
+	border-radius:2px;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	cursor:pointer;
+	margin-top:130px;
+	margin-left:10px;
+	
+	}
+		
+	.ChanePx:hover{
+	background-color:#177272;
+	color:#fff;
+}
+	
+
+.lbl{
+	font-size:20px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.sex{
+	font-size:20px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	height:40px;
+	border:thick;
+	width:313px;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	
+}
+.sex:hover{
+	border-color:#f5841f;
+	background-image:url(images/form__field_bg.png);
+	background-repeat:repeat-x repeat-y;
+	border:solid 1px;}
+.pass{
+	line-height:20px;
+	margin-top:2px;
+	border:thick;
+	width:250px;
+	background:#f1f1f1;
+	background-image:url(images/pass_field.png);
+	background-repeat:no-repeat;
+	background-position:right;
+	
+	
+}
+.retr_pss{
+	line-height:3px;
+}
+
+.mail{
+	line-height:20px;
+	border:thick;
+
+	width:250px;
+	background:#f1f1f1;
+	background-image:url(images/login_field.png);
+	background-repeat:no-repeat;
+	background-position:right;
+	
+	
+}
+/*-------Normal link As a button view----*/
+#textLink{
+	width:250px;
+	line-height:22px;
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	background-color: #017d7c;
+	box-shadow:#000 1px 3px 2px  ;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:1em;
+	color:#fff;
+	margin-top:9px;
+	
+	
+	}
+	#textLink a
+	{
+		text-decoration:none;
+		color:#fff;
+}
+#textLink a:hover
+	{	
+		color:#CCC;
+}
+/*--------Footer-------*/
+
+.footer{
+	
+		text-align:center;
+		color: #999;
+		font-family:Verdana, Geneva, sans-serif;
+		font-size:0.7em;
+		font-weight:bold;
+		border-radius:2px;
+		height:30px;
+		
+		background-image:url(images/Untitled-3_07.png);
+		
+	
+	
+	}
+	#footertext{
+		padding-top:6px;
+	}
+
+/*--------ImpLinkx-------*/
+.impLinks{
+	clear:both;
+	height:135px;
+	background-image: url(images/bg.png);
+		
+}
+.implinksContainer{
+	padding-top:15px;
+	width:1024px;
+	height:auto;
+	/*alignment-adjust:middle;*/
+}
+
+/*---------------IMpLinkscol1--------------*/
+#col1{
+	
+	font-size:0.8em;
+	line-height:30px;
+	font-weight: lighter;
+	
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	list-style-type:none;
+	float:left;
+	width:220px;
+	border
+	}
+	
+
+/*---------------Hover Over a Link col2--------------*/
+#col1 a{
+	color:#999999;
+	text-decoration:none;
+	
+	}
+	
+	#col1 a:hover{
+	color:#006666;
+	text-decoration:none;
+}
+	
+/*---------------IMpLinkscol2--------------*/
+
+#col2{
+	line-height:30px;
+	font-size:0.8em;
+	font-weight: lighter;
+	/*height:300px;
+	position:inherit;*/
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	list-style-type:none;
+	float:right;
+	width:220px;
+
+}
+/*---------------Hover Over a Link col2--------------*/
+#col2 a{
+	color:#999999;
+	text-decoration:none;
+	
+	}
+	
+	#col2 a:hover{
+		color:#006666;
+	text-decoration:none;
+}
+	
+/*---------------IMpLinkscol3--------------*/
+#col3{
+	line-height:30px;
+	font-size:0.8em;
+	font-weight: lighter;
+/*	height:300px;
+	position:inherit;*/
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	list-style-type:none;
+	float:right;
+	width:220px;
+	
+}
+
+/*---------------Hover Over a Link col3--------------*/
+
+#col3 a{
+	color:#999999;
+	text-decoration:none;
+	
+	}
+	
+	#col3 a:hover{
+	color:#006666;
+	text-decoration:none;
+}
+
+/*---------------IMpLinkscol4--------------*/
+#col4{
+	line-height:30px;
+	font-size:0.8em;
+	font-weight: lighter;
+	/*height:300px;
+	position:inherit;*/
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	list-style-type:none;
+	float:right;
+	width:220px;
+	
+}
+
+/*---------------Hover Over a Link col4--------------*/
+
+#col4 a{
+	color:#999999;
+	text-decoration:none;
+	
+	}
+	
+	#col4 a:hover{
+	color:#006666;
+	text-decoration:none;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color: # 000;}
+	
+	
+.imgLoader{
+	width:auto;
+	height:auto;
+}
+#leftnav
+{
+	color:White;
+	width:195px;
+	height:170px;
+	background-color:#00CCCC;
+	background-image:url(images/bg.png);
+	border-radius:5px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	box-shadow:#000 1px 3px 4px  ;
+	
+	
+
+}
+#leftnav li,#leftnav li a{
+	text-decoration:none;
+	list-style:none;
+	line-height:30px;
+	color:#FFF;
+	font-weight:;
+}
+
+#leftnav li a:hover{
+	color:#FFC;
+	font-weight:bold;
+	text-decoration:none;
+	
+}
+.nav_margin{
+	padding-top:6px;
+}
+
+hr{
+	height:0.5px;
+}
+.UpcomingEventx{
+	height:auto;
+	width:320px;
+	background:#FFC;
+	/*border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;*/
+	border-bottom:1px  dotted;
+	border-color: #999;
+	margin-left:10px;
+	margin-top:5px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+span a
+{
+	text-decoration:none;
+	color:#333;
+
+}
+span a:hover
+{
+	text-decoration:none;
+	color:#fff;
+}
+	/*---uSERpROFILE---*/
+	
+	.PrsonalInfoContainer{
+	float:left;
+	width:500px;
+	height:200px;
+	border:#006666 solid 1px;
+	}
+	
+	.Prsnl_inner{
+	float:left;
+	width:300px;
+	height:auto;
+	
+	}
+	.socialField{
+		margin-left:20px;
+		width:280px;
+		height:30px;
+		background-color:#177272;
+		
+		
+	}
+	.profilepic{
+		width:160px;
+		height:160px;
+		border-radius:5px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	box-shadow:#000 1px 3px 4px  ;
+	}
+	.Prsnl_inner_pic{
+	
+	float:right;
+	border:#000 solid 1px;
+	width:160px;
+	background-image:url(images/profile_pic_default.png);
+	background-repeat:no-repeat;
+	height:160px;
+	/*background-position: center;
+	background-position:top;*/
+	border-radius:5px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	box-shadow:#000 1px 3px 4px  ;
+	}
+
+	.notification{
+		float:right;
+		width:300px;
+		height:200px;
+		overflow:scroll;
+		overflow-x:hidden;
+		background:url(images/login_bg.png);
+		background-repeat:repeat-x;
+		border-radius:10px 10px 0px 0px;
+		-moz-border-radius:10px 10px 0px 0px;
+		-webkit-border-radius:10px 10px 0px 0px;
+
+	}
+	
+	.innerNotiEvents{
+		height:200px;
+	width:290px;
+	
+}
+	.innerText{
+		width:274px;
+		height:auto;
+		border-bottom:1px  dotted;
+	border-color: #999;
+	margin-left:10px;
+	margin-top:10px;
+	font-size:small;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	background:#FFFFCC;
+	padding-left:10px;
+		border-radius:2px;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	line-height:14px;
+	}
+	.innerText:hover{
+		background:#FFF;
+		cursor:pointer;
+		}
+	/*---ScrollbarFormatting---*/
+	
+#ex3::-webkit-scrollbar{
+width:10px;
+background-color:#3498db;
+} 
+#ex3::-webkit-scrollbar-thumb{
+background-color:#FFF;
+border-radius:10px;
+}
+#ex3::-webkit-scrollbar-thumb:hover{
+background-color:#CCC;
+border:1px solid #333333;
+}
+#ex3::-webkit-scrollbar-thumb:active{
+background-color:#A6393D;
+border:1px solid #333333;
+} 
+#ex3::-webkit-scrollbar-track{
+border:1px #FFF solid;
+border-radius:5px;
+-webkit-box-shadow:0 0 6px gray inset;
+} 
+
+	
+
+#gallery_activity
+        {
+            background-color: #444;
+            padding: 10px;
+            width: 520px;
+        }
+        #gallery_activity ul
+        {
+            list-style: none;
+        }
+        #gallery_activity ul li
+        {
+            display: inline;
+        }
+        #gallery_activity ul img
+        {
+            border: 5px solid #3e3e3e;
+            border-width: 5px 5px 20px;
+        }
+        #gallery_activity ul a:hover img
+        {
+            border: 5px solid #fff;
+            border-width: 5px 5px 20px;
+            color: #fff;
+        }
+        #gallery_activity ul a:hover
+        {
+            color: #fff;
+        }
+		
+		.choose{
+			margin-left:-30px;
+		margin-top:10px;
+		box-shadow:#000 1px 3px 2px;
+		border-radius:2px;
+		-webkit-border-radius:2px;
+		-moz-border-radius:2px;
+		cursor:pointer;
+		
+		
+	}
+	.upload{
+		background-color: #2b8585
+	box-shadow:#000 1px 3px 2px;
+	border-radius:2px;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	cursor:pointer;
+	margin-top:-150px;
+	margin-left:48px;
+	margin-bottom: 0px;
+}
+	.Containerdevider{
+		float:left;
+		width:400px;
+		height:auto;
+		border-right:solid 1px #006666;
+		
+	}
+	#about{
+		width:400px;
+		border-bottom:solid 1px #006666;
+	}
+	#abouttext{
+		margin-left:40px;
+		}
+		
+		.aboutheding{
+			cursor:pointer;
+			padding:2px;
+			background-color:#006666;
+		}
+		.basicinfoContainer{
+			margin-right:18px;
+			float:right;
+			width:400px;
+			height:500px;
+		}
+			
+	.InfoContainer{
+	}
+	
+	.briefContainer{
+		width:auto;
+		height:auto;
+		
+	}
+	#briefInner{
+		width:inherit;
+		border-bottom:solid 1px #006666;
+		overflow:scroll;
+	}
+	#briefInner span{
+		
+		font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+		}
+		
+	
+	.textformatting{
+		height:100px;
+		width:300px;
+		float:right;
+		padding-left:10px;
+		background-color:#FFC;
+		border-radius:4px;
+		-moz-border-radius:4px;;
+		-webkit-border-radius:4px;
+		font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+		font-style:italic;
+		font-size:small;
+	}
+	
+	
